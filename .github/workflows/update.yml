@@ -1,6 +1,11 @@
 name: Update Versions
 
 on:
+  schedule:
+    - cron: "0 8 * * 1"
+      timezone: "Asia/Kuala_Lumpur"
+    - cron: "0 8 * * 4"
+      timezone: "Asia/Kuala_Lumpur"
   workflow_dispatch:
 
 permissions:
