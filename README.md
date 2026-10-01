@@ -1,8 +1,8 @@
-# 🎮 MCPE Versions
+# 🎮 Minecraft Bedrock Versions
 
-> 📦 A simple, automatically updated list of **Minecraft Bedrock / MCPE** versions.
+> 📦 A simple, automatically updated list of **Minecraft Bedrock** versions.
 
-Version data is collected from [MCPELIFE](https://mcpelife.com/download/) and stored in [`versions.json`](https://github.com/FaiBah/MCPE-Versions/blob/main/versions.json).
+Version data is collected from [MCPELIFE](https://mcpelife.com/download/) and stored in [`versions.json`](https://github.com/FaiBah/MinecraftBedrockVersions/blob/main/versions.json).
 
 ## 📄 JSON
 
@@ -39,25 +39,25 @@ Version data is collected from [MCPELIFE](https://mcpelife.com/download/) and st
 ### 🟢 Latest Stable
 
 ```bash
-curl -s https://raw.githubusercontent.com/FaiBah/MCPE-Versions/main/versions.json | jq -r '.stable'
+curl -s https://raw.githubusercontent.com/FaiBah/MinecraftBedrockVersions/main/versions.json | jq -r '.stable'
 ```
 
 ### 🔵 Latest Preview
 
 ```bash
-curl -s https://raw.githubusercontent.com/FaiBah/MCPE-Versions/main/versions.json | jq -r '.preview'
+curl -s https://raw.githubusercontent.com/FaiBah/MinecraftBedrockVersions/main/versions.json | jq -r '.preview'
 ```
 
 ### 📦 All Stable Versions
 
 ```bash
-curl -s https://raw.githubusercontent.com/FaiBah/MCPE-Versions/main/versions.json | jq -r '.versions[]'
+curl -s https://raw.githubusercontent.com/FaiBah/MinecraftBedrockVersions/main/versions.json | jq -r '.versions[]'
 ```
 
 ### 🧪 All Preview Versions
 
 ```bash
-curl -s https://raw.githubusercontent.com/FaiBah/MCPE-Versions/main/versions.json | jq -r '.preview_versions[]'
+curl -s https://raw.githubusercontent.com/FaiBah/MinecraftBedrockVersions/main/versions.json | jq -r '.preview_versions[]'
 ```
 
 ## 🌐 Source
